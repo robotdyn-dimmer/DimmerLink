@@ -42,7 +42,7 @@ DimmerLink supports a wide range of supply voltages and logic levels:
 
 ## General Connection Diagram
 
-[diagram](images/DimLink-connection-ArdRasp.png)
+![diagram](images/DimLink-connection-ArdRasp.png)
 
 ```
 ┌─────────────────┐      ┌──────────────────┐      ┌─────────┐      ┌──────┐

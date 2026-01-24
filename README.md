@@ -2,7 +2,7 @@
 
 AC dimmer controller for lamp brightness control via TRIAC. Connects to your project (Arduino, ESP32, Raspberry Pi, etc.) and allows you to control AC dimmers with simple commands.
 
-[diagram](images/DimLink-connection-ArdRasp.png)
+![diagram](images/DimLink-connection-ArdRasp.png)
 
 **Working with DimmerLink is easy.**
 
@@ -22,7 +22,7 @@ AC dimmer controller for lamp brightness control via TRIAC. Connects to your pro
 
 ---
 
-[DImmerLink](images/DimLink_pic.jpg)
+![DImmerLink](images/DimLink_pic.jpg)
 
 - **Product Page**: [DImmerLink on rbdimmer.com](https://www.rbdimmer.com/shop/dimmerlink-controller-uart-i2c-interface-for-ac-dimmers-48)
 - **AliExpress Page**: [DImmerLink on AliExpress](https://fr.aliexpress.com/item/1005011583805008.html)
