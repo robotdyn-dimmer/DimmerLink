@@ -22,10 +22,10 @@ AC dimmer controller for lamp brightness control via TRIAC. Connects to your pro
 
 ---
 
-![DImmerLink](images/DimLink_pic.jpg)
+![DImmerLink](images/DimLink_pic.jpeg)
 
-- **Product Page**: [DImmerLink on rbdimmer.com](https://www.rbdimmer.com/shop/dimmerlink-controller-uart-i2c-interface-for-ac-dimmers-48)
-- **AliExpress Page**: [DImmerLink on AliExpress](https://fr.aliexpress.com/item/1005011583805008.html)
+- **Product Page**: [DimmerLink on rbdimmer.com](https://www.rbdimmer.com/shop/dimmerlink-controller-uart-i2c-interface-for-ac-dimmers-48)
+- **AliExpress Page**: [DimmerLink on AliExpress](https://fr.aliexpress.com/item/1005011583805008.html)
 
 ---
 
