@@ -2,6 +2,8 @@
 
 Detailed description of the I2C interface for controlling DimmerLink.
 
+> ⚠️ **Important!** The controller ships from factory with **UART interface enabled by default**. Use the UART command `SWITCH_I2C` (0x5B) to switch to I2C mode — see [UART documentation](03_UART_COMMUNICATION.md#switch_i2c--switch-to-i2c). After switching, the controller will start with I2C interface.
+
 ---
 
 ## Connection Parameters
