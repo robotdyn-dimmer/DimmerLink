@@ -162,7 +162,7 @@ examples/
 
 ## Support
 
-- **GitHub Issues**: [Report an issue](issues/)
+- **GitHub Issues**: [Report an issue]([issues/](https://github.com/robotdyn-dimmer/DimmerLink/issues))
 - **Product Page**: [DImmerLink on rbdimmer.com](https://www.rbdimmer.com/shop/dimmerlink-controller-uart-i2c-interface-for-ac-dimmers-48)
 - **AliExpress Page**: [DImmerLink on AliExpress](https://fr.aliexpress.com/item/1005011583805008.html)
 
