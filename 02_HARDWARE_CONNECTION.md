@@ -42,7 +42,7 @@ DimmerLink supports a wide range of supply voltages and logic levels:
 
 ## General Connection Diagram
 
-<!-- TODO: Add general diagram image -->
+[diagram](images/DimLink-connection-ArdRasp.png)
 
 ```
 ┌─────────────────┐      ┌──────────────────┐      ┌─────────┐      ┌──────┐
@@ -86,7 +86,6 @@ DimmerLink works with any microcontroller that has UART or I2C interface.
 
 ### I2C Wiring Diagram
 
-<!-- TODO: Add I2C diagram image -->
 
 ```
                     VCC (your board)

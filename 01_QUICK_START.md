@@ -50,15 +50,13 @@ This guide will help you get DimmerLink up and running in minutes.
 
 ### Connection Diagram
 
-<!-- TODO: Add connection diagram image -->
-
 ```
 [Your Project] ←→ [DimmerLink] ←→ [Dimmer] ←→ [Mains + Lamp]
 ```
 
 **Detailed wiring diagrams for different boards:** [Hardware Connection](02_HARDWARE_CONNECTION.md)
 
-**Detailed dimmer and load connection diagrams (lamps, heaters):** [TODO: Website link]
+**Detailed dimmer and load connection diagrams (lamps, heaters):** [Dimmers power and load connection](https://www.rbdimmer.com//docs/hardware-connection)
 
 ---
 
