@@ -48,7 +48,7 @@ Your ESP just sends: *"Set brightness to 50%"* via I2C. That's it.
 
 ---
 
-![DimmerLink](https://github.com/robotdyn-dimmer/DimmerLink/images/DimLink_pic.jpeg)
+![DimmerLink](https://github.com/robotdyn-dimmer/DimmerLink/raw/main/images/DimLink_pic.jpeg)
 
 - **Product Page**: [DImmerLink on rbdimmer.com](https://www.rbdimmer.com/shop/dimmerlink-controller-uart-i2c-interface-for-ac-dimmers-48)
 - **AliExpress Page**: [DImmerLink on AliExpress](https://fr.aliexpress.com/item/1005011583805008.html)
