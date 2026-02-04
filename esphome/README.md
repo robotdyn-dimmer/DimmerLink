@@ -6,7 +6,7 @@
 
 ## ❌ The Problem
 
-Using ESPHome's `ac_dimmer` component with RobotDyn modules?
+Using ESPHome's `ac_dimmer` component?
 
 - 💡 **Flickering** at low brightness levels
 - ⚡ **WiFi conflicts** — interrupts break timing
