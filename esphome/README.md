@@ -110,7 +110,7 @@ light:
 
 ---
 
-## Comparison
+## Comparison of Integration Methods
 
 | Feature | External Component | Lambda Integration |
 |---------|-------------------|-------------------|
