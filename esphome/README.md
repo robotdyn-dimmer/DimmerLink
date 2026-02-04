@@ -1,6 +1,50 @@
 # DimmerLink — ESPHome Integration
 
-Integration of DimmerLink AC TRIAC Dimmer with Home Assistant via ESPHome.
+**Flicker-free AC dimming for Home Assistant.** A dedicated timing controller that eliminates the #1 problem with TRIAC dimmers.
+
+---
+
+## ❌ The Problem
+
+Using ESPHome's `ac_dimmer` component with RobotDyn modules?
+
+- 💡 **Flickering** at low brightness levels
+- ⚡ **WiFi conflicts** — interrupts break timing
+- 🔥 **ESP8266 unstable** — not enough resources for timing-critical code
+- 📝 **Complex tuning** — timing depends on load type and mains quality
+
+> *"The lamp has an irregular flicker"* — [ESPHome Issue #4131](https://github.com/esphome/issues/issues/4131)
+
+## ✅ The Solution
+
+**DimmerLink** — a compact module with dedicated Cortex-M0+ that handles ALL timing-critical operations: zero-cross detection, phase angle calculation, and TRIAC gate control with microsecond precision.
+
+Your ESP just sends: *"Set brightness to 50%"* via I2C. That's it.
+
+- ✅ **Zero flickering** — hardware-level timing, no software jitter
+- ✅ **3 lines of YAML** — no interrupts, no libraries, no conflicts
+- ✅ **Works on any ESP** — ESP8266, ESP32, ESP32-S2/S3/C3
+- ✅ **Auto 50/60 Hz** — automatic mains frequency detection
+- ✅ **3 dimming curves** — Linear, RMS, Logarithmic
+
+---
+
+## DimmerLink vs ESPHome ac_dimmer
+
+| | ac_dimmer | **DimmerLink** |
+|---|-----------|----------------|
+| Flickering | ⚠️ Common at low levels ([#4131](https://github.com/esphome/issues/issues/4131)) | ✅ **Never** — hardware timing |
+| ESP8266 support | ⚠️ Unstable (interrupt conflicts) | ✅ **Stable** — no interrupts needed |
+| CPU usage | High (timing-critical ISR) | **< 1%** (just I2C writes) |
+| WiFi interference | Yes (interrupts vs WiFi stack) | **None** |
+| Setup complexity | Medium (tuning required) | **Simple YAML** |
+| Dimming curves | Software only | **3 hardware curves** |
+| AC frequency | Manual configuration | **Auto-detect 50/60 Hz** |
+| Additional hardware | $0 | [$3.99 module](https://www.rbdimmer.com/shop/dimmerlink-controller-uart-i2c-interface-for-ac-dimmers-48) |
+
+> **When to use `ac_dimmer`:** If it already works well for your setup — keep using it!
+>
+> **When to use DimmerLink:** Flickering issues, ESP8266, multiple dimmers, or you want plug-and-play simplicity.
 
 ---
 
@@ -17,7 +61,6 @@ external_components:
   - source: github://robotdyn-dimmer/DimmerLink@main
     components: [dimmerlink]
     refresh: 1d
-    path: esphome/components
 
 dimmerlink:
   id: dimmer1
@@ -31,7 +74,7 @@ light:
 
 **Best for:** Most users. Simple YAML, automatic I2C communication, built-in sensors, selects, and buttons.
 
-> [Full Component Documentation](./components/README.md) | [Example YAML](./components/example.yaml)
+> [Full Component Documentation](../components/README.md) | [Example YAML](./example.yaml)
 
 ### 2. Lambda Integration (Advanced)
 
@@ -133,7 +176,6 @@ external_components:
   - source: github://robotdyn-dimmer/DimmerLink@main
     components: [dimmerlink]
     refresh: 1d
-    path: esphome/components
 
 i2c:
   sda: GPIO21

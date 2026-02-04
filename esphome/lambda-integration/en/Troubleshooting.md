@@ -605,7 +605,7 @@ button:
 
 | Feature | Status | Description |
 |---------|--------|-------------|
-| Native component | Available | [External Component](../../components/README.md) |
+| Native component | Available | [External Component](../../../components/README.md) |
 | Thermal monitoring | In development | Temperature sensor |
 | Fan control | In development | Cooling management |
 | Energy monitoring | Planned | Integration with ACS712/CT |
@@ -618,7 +618,6 @@ A native ESPHome external component is now available. It provides clean YAML con
 external_components:
   - source: github://robotdyn-dimmer/DimmerLink@main
     components: [dimmerlink]
-    path: esphome/components
 
 dimmerlink:
   id: dimmer1
@@ -637,7 +636,7 @@ sensor:
 ```
 
 > [!TIP]
-> See the [External Component Documentation](../../components/README.md) for full configuration reference.
+> See the [External Component Documentation](../../../components/README.md) for full configuration reference.
 
 ### Extended Projects
 

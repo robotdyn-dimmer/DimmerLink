@@ -25,7 +25,6 @@ Add to your ESPHome configuration:
 external_components:
   - source: github://robotdyn-dimmer/DimmerLink@main
     components: [dimmerlink]
-    path: esphome/components
 ```
 
 For local development:
@@ -231,7 +230,6 @@ web_server:
 external_components:
   - source: github://robotdyn-dimmer/DimmerLink@main
     components: [dimmerlink]
-    path: esphome/components
 
 i2c:
   sda: GPIO21
@@ -363,7 +361,7 @@ light:
 
 ## License
 
-MIT License - see [LICENSE](LICENSE)
+MIT License - see [LICENSE](../esphome/LICENSE)
 
 ## Links
 

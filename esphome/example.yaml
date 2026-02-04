@@ -42,7 +42,6 @@ captive_portal:
 external_components:
   - source: github://robotdyn-dimmer/DimmerLink@main
     components: [dimmerlink]
-    path: esphome/components
 
 # I2C bus configuration
 i2c:

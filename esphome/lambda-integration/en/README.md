@@ -138,7 +138,7 @@ esphome run dimmerlink.yaml
 
 | Document | Description |
 |----------|-------------|
-| [External Component](../../components/README.md) | ESPHome DimmerLink component (no lambdas) |
+| [External Component](../../../components/README.md) | ESPHome DimmerLink component (no lambdas) |
 | [I2C Communication](../../../04_I2C_COMMUNICATION.md) | I2C protocol details |
 | [Hardware Connection](../../../02_HARDWARE_CONNECTION.md) | Connection diagrams |
 
