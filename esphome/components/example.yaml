@@ -1,0 +1,126 @@
+# DimmerLink ESPHome Example Configuration
+#
+# This is a complete example showing all available features of the
+# DimmerLink ESPHome external component.
+
+esphome:
+  name: dimmerlink-demo
+  friendly_name: DimmerLink Demo
+
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
+
+# Enable logging
+logger:
+  level: DEBUG
+
+# Enable Home Assistant API
+api:
+  encryption:
+    key: !secret api_encryption_key
+
+# Enable OTA updates
+ota:
+  - platform: esphome
+    password: !secret ota_password
+
+# WiFi configuration
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+  # Enable fallback hotspot
+  ap:
+    ssid: "DimmerLink Fallback"
+    password: !secret ap_password
+
+captive_portal:
+
+# External component source
+external_components:
+  - source: github://robotdyn-dimmer/DimmerLink@main
+    components: [dimmerlink]
+    path: esphome/components
+
+# I2C bus configuration
+i2c:
+  sda: GPIO21
+  scl: GPIO22
+  scan: true
+  frequency: 100kHz
+
+# DimmerLink Hub
+dimmerlink:
+  id: dimmer1
+  address: 0x50
+
+# Light entity for brightness control
+light:
+  - platform: dimmerlink
+    dimmerlink_id: dimmer1
+    name: "Living Room Light"
+    id: living_room_light
+    default_transition_length: 500ms
+    gamma_correct: 1.0
+
+# Sensors for monitoring
+sensor:
+  - platform: dimmerlink
+    dimmerlink_id: dimmer1
+    update_interval: 60s
+    ac_frequency:
+      name: "AC Frequency"
+      id: ac_freq
+    level:
+      name: "Brightness Level"
+      id: brightness_level
+    firmware_version:
+      name: "Firmware Version"
+      id: fw_version
+    ac_period:
+      name: "AC Period"
+      id: ac_period
+
+# Binary sensors for status monitoring
+binary_sensor:
+  - platform: dimmerlink
+    dimmerlink_id: dimmer1
+    update_interval: 1s
+    ready:
+      name: "Dimmer Ready"
+      id: dimmer_ready
+    error:
+      name: "Dimmer Error"
+      id: dimmer_error
+    calibration_done:
+      name: "Calibration Done"
+      id: calibration_done
+
+# Select for dimming curve
+select:
+  - platform: dimmerlink
+    dimmerlink_id: dimmer1
+    curve:
+      name: "Dimming Curve"
+      id: dimming_curve
+
+# Buttons for device control
+button:
+  - platform: dimmerlink
+    dimmerlink_id: dimmer1
+    reset:
+      name: "Reset Dimmer"
+      id: reset_button
+    recalibrate:
+      name: "Recalibrate"
+      id: recalibrate_button
+
+# Optional: Status LED
+status_led:
+  pin: GPIO2
+
+# Optional: Web server for local control
+web_server:
+  port: 80
