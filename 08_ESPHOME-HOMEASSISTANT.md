@@ -81,7 +81,7 @@ light:
 
 **Best for:** Most users. Simple YAML, automatic I2C communication, built-in sensors, selects, and buttons.
 
-> [Full Component Documentation](../components/README.md) | [Example YAML](./example.yaml)
+> [Full Component Documentation](./components/README.md)
 
 ### 2. Lambda Integration (Advanced)
 
@@ -106,7 +106,7 @@ light:
 
 **Best for:** Advanced users who need custom logic, non-standard configurations, or want to understand the I2C protocol in detail.
 
-> [Full Lambda Documentation](./lambda-integration/en/README.md) | [Lambda Reference](./lambda-integration/en/04_lambda_reference.md)
+> [Full Lambda Documentation](./esphome/lambda-integration/en/README.md) | [Lambda Reference](./esphome/lambda-integration/en/04_lambda_reference.md)
 
 ---
 
@@ -216,10 +216,10 @@ light:
 
 | Document | Description |
 |----------|-------------|
-| [I2C Communication](../04_I2C_COMMUNICATION.md) | I2C protocol and register map |
-| [Hardware Connection](../02_HARDWARE_CONNECTION.md) | Connection diagrams |
-| [Quick Start Guide](../01_QUICK_START.md) | Getting started with DimmerLink |
-| [FAQ & Troubleshooting](../07_FAQ_TROUBLESHOOTING.md) | Common issues and solutions |
+| [I2C Communication](./04_I2C_COMMUNICATION.md) | I2C protocol and register map |
+| [Hardware Connection](./02_HARDWARE_CONNECTION.md) | Connection diagrams |
+| [Quick Start Guide](./01_QUICK_START.md) | Getting started with DimmerLink |
+| [FAQ & Troubleshooting](./07_FAQ_TROUBLESHOOTING.md) | Common issues and solutions |
 
 ---
 
