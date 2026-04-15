@@ -2,7 +2,7 @@
 
 AC dimmer controller for lamp brightness control via TRIAC. Connects to your project (Arduino, ESP32, Raspberry Pi, etc.) and allows you to control AC dimmers with simple commands.
 
-![diagram](https://www.rbdimmer.com/web/image/5474-640265f5/DimLink-connection-ArdRasp.webp)
+![diagram](images/DimLink-connection-ArdRasp.png)
 
 **Working with DimmerLink is easy.**
 
@@ -12,18 +12,18 @@ AC dimmer controller for lamp brightness control via TRIAC. Connects to your pro
 
 | Section | Description |
 |---------|-------------|
-| [Quick Start](https://www.rbdimmer.com/docs/dimmerlink-QuickStart) | Start here — minimal example in 5 minutes |
-| [**Getting Started Step by Step**](https://www.rbdimmer.com/docs/dimmerlink-getting-started) | Practical walkthrough — serial terminal, calibration, first commands |
-| [Hardware Connection](https://www.rbdimmer.com/docs/dimmerlink-HardwareConnection) | Wiring diagrams for popular boards |
-| [UART Interface](https://www.rbdimmer.com/docs/dimmerlink-UartCommunication) | Commands and examples for UART |
-| [I2C Interface](https://www.rbdimmer.com/docs/dimmerlink-I2CCommunication) | Registers and examples for I2C |
-| [Single Board Computers](https://www.rbdimmer.com/docs/dimmerlink-SingleBoardComputers) | Raspberry Pi, Orange Pi, Banana Pi |
-| [Advanced Usage](https://www.rbdimmer.com/docs/dimmerlink-AdvancedUsage) | USB-UART, LoRa, GSM, Bluetooth |
-| [FAQ & Troubleshooting](https://www.rbdimmer.com/docs/dimmerlink-FAQTroubleshooting) | Common questions and solutions |
+| [Quick Start](01_QUICK_START.md) | Start here — minimal example in 5 minutes |
+| [**Getting Started Step by Step**](01-1_Getting_Started_Step_by_Step.md) | Practical walkthrough — serial terminal, calibration, first commands |
+| [Hardware Connection](02_HARDWARE_CONNECTION.md) | Wiring diagrams for popular boards |
+| [UART Interface](03_UART_COMMUNICATION.md) | Commands and examples for UART |
+| [I2C Interface](04_I2C_COMMUNICATION.md) | Registers and examples for I2C |
+| [Single Board Computers](05_SINGLE_BOARD_COMPUTERS.md) | Raspberry Pi, Orange Pi, Banana Pi |
+| [Advanced Usage](06_ADVANCED_USAGE.md) | USB-UART, LoRa, GSM, Bluetooth |
+| [FAQ & Troubleshooting](07_FAQ_TROUBLESHOOTING.md) | Common questions and solutions |
 
 ---
 
-![DimmerLink](https://www.rbdimmer.com/web/image/5475-3df1af56/DimLink_pic_1000x1000.webp)
+![DimmerLink](images/DimLink_pic.jpeg)
 
 - **Product Page**: [DImmerLink on rbdimmer.com](https://www.rbdimmer.com/shop/dimmerlink-controller-uart-i2c-interface-for-ac-dimmers-48)
 - **AliExpress Page**: [DImmerLink on AliExpress](https://fr.aliexpress.com/item/1005011583805008.html)
