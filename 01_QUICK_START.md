@@ -54,8 +54,6 @@ This guide will help you get DimmerLink up and running in minutes.
 [Your Project] ←→ [DimmerLink] ←→ [Dimmer] ←→ [Mains + Lamp]
 ```
 
-**Detailed wiring diagrams for different boards:** [Hardware Connection](02_HARDWARE_CONNECTION.md)
-
 **Detailed dimmer and load connection diagrams (lamps, heaters):** [Dimmers power and load connection](https://www.rbdimmer.com//docs/hardware-connection)
 
 ---
@@ -279,13 +277,12 @@ Expected response:
 | I2C doesn't see device | Check connections and pull-up resistors |
 | Incorrect brightness | Check logic levels (3.3V/5V) |
 
-**More details:** [FAQ & Troubleshooting](07_FAQ_TROUBLESHOOTING.md)
-
 ---
 
 ## What's Next?
 
-- [Wiring for Different Boards](02_HARDWARE_CONNECTION.md)
-- [All UART Commands](03_UART_COMMUNICATION.md)
-- [All I2C Registers](04_I2C_COMMUNICATION.md)
+- [Wiring for Different Boards](https://www.rbdimmer.com/docs/dimmerlink-HardwareConnection)
+- [All UART Commands](https://www.rbdimmer.com/docs/dimmerlink-UartCommunication)
+- [All I2C Registers](https://www.rbdimmer.com/docs/dimmerlink-I2CCommunication)
 - [Code Examples](examples/)
+

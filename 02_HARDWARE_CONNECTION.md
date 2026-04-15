@@ -42,7 +42,7 @@ DimmerLink supports a wide range of supply voltages and logic levels:
 
 ## General Connection Diagram
 
-![diagram](images/DimLink-connection-ArdRasp.png)
+![diagram](https://www.rbdimmer.com/web/image/5474-640265f5/DimLink-connection-ArdRasp.webp)
 
 ```
 ┌─────────────────┐      ┌──────────────────┐      ┌─────────┐      ┌──────┐
@@ -85,7 +85,6 @@ DimmerLink works with any microcontroller that has UART or I2C interface.
 - **Address**: 0x50
 
 ### I2C Wiring Diagram
-
 
 ```
                     VCC (your board)
@@ -391,8 +390,3 @@ General principle:
 
 ---
 
-## What's Next?
-
-- [UART Commands](03_UART_COMMUNICATION.md)
-- [I2C Registers](04_I2C_COMMUNICATION.md)
-- [Raspberry Pi Connection](05_SINGLE_BOARD_COMPUTERS.md)
