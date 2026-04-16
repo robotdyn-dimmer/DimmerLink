@@ -1,6 +1,6 @@
 # Berry Driver Overview
 
-The DimmerLink Berry driver connects CIU32 TRIAC AC dimmer hardware to Tasmota via I2C. It provides native Tasmota integration with web dashboard controls, console commands, HTTP API, and MQTT telemetry.
+The DimmerLink Berry driver connects MCU TRIAC AC dimmer hardware to Tasmota via I2C. It provides native Tasmota integration with web dashboard controls, console commands, HTTP API, and MQTT telemetry.
 
 ## Driver Files
 
@@ -15,7 +15,7 @@ The DimmerLink Berry driver connects CIU32 TRIAC AC dimmer hardware to Tasmota v
 | Component | Details |
 |-----------|---------|
 | Tasmota firmware | `tasmota32` or `tasmota32-berry` (ESP32 with Berry support) |
-| Hardware | ESP32 board + CIU32 DimmerLink module(s) |
+| Hardware | ESP32 board + MCU DimmerLink module(s) |
 | I2C wiring | SDA, SCL, GND, VCC with **4.7kΩ pull-up resistors** on SDA and SCL |
 
 > [!WARNING]

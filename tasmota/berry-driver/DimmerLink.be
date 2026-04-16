@@ -1,5 +1,5 @@
 # DimmerLink Berry I2C driver for Tasmota
-# CIU32 TRIAC Dimmer Controller — up to 4 channels, multiple devices
+# MCU TRIAC Dimmer Controller — up to 4 channels, multiple devices
 # https://github.com/robotdyn-dimmer/DimmerLink
 # -------------------------------------------------------------------------
 #
@@ -27,7 +27,7 @@
 # -------------------------------------------------------------------------
 
 class DimmerLink : I2C_Driver
-  # I2C register map (CIU32 I2C_TECHNICAL_SPECIFICATION.md)
+  # I2C register map (MCU I2C_TECHNICAL_SPECIFICATION.md)
   static var ADDR_DEFAULT = 0x50
   static var REG_STATUS   = 0x00
   static var REG_CMD      = 0x01
@@ -54,7 +54,7 @@ class DimmerLink : I2C_Driver
   var has_temp
 
   # ─────────────────────────────────────────────
-  # Override read8/write8: CIU32 requires a dummy
+  # Override read8/write8: MCU requires a dummy
   # read after setting the register pointer.
   # Both guard against nil wire (device disconnected).
   # ─────────────────────────────────────────────
@@ -164,7 +164,7 @@ class DimmerLink : I2C_Driver
       var addrs = bus_obj.scan()
       print(format("I2C bus %d:", bus_num))
       for addr : addrs
-        # CIU32 needs dummy read before real read
+        # MCU needs dummy read before real read
         bus_obj.read(addr, 0x03, 1)
         var ver = bus_obj.read(addr, 0x03, 1)   # VERSION register
         if ver == 0x01

@@ -145,7 +145,7 @@ end)
 
 ```berry
 # Monitor temperature and send MQTT alert if thermal protection activates
-# (Requires CIU32 firmware with FEATURE_TEMPERATURE)
+# (Requires MCU firmware with FEATURE_TEMPERATURE)
 
 tasmota.add_cron("0 */1 * * * *", def ()
   for inst : global._dimmerlink

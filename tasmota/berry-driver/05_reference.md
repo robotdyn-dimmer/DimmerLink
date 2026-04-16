@@ -37,4 +37,4 @@
 | "Command Unknown" in console | Driver not loaded. Check `autoexec.be` contains loader line |
 | Device not found after address change | Run `DimmerLink.scan()` to find real address, update `dimmerlink.json` |
 | "label ends with digit" warning | Rename label in `dimmerlink.json` to not end with 0-9 |
-| Temperature shows "N/A" | CIU32 firmware does not have FEATURE_TEMPERATURE enabled |
+| Temperature shows "N/A" | MCU firmware does not have FEATURE_TEMPERATURE enabled |
