@@ -6,8 +6,8 @@ DimmerLink integrates with [Tasmota](https://tasmota.github.io/) firmware for ES
 
 | Driver | Platform | Description |
 |--------|----------|-------------|
-| [Berry I2C Driver](https://github.com/robotdyn-dimmer/DimmerLink/tree/main/tasmota/berry-driver) | ESP32 | Full-featured Berry driver with auto-detection, web sliders, MQTT, presets |
-| Native Driver | ESP8266/ESP32 | Coming soon — lightweight C driver for resource-constrained devices |
+| [Berry I2C Driver](https://github.com/robotdyn-dimmer/DimmerLink/tree/main/tasmota/berry-driver) | ESP32 only | Berry script driver with auto-detection, web sliders, MQTT, presets |
+| [Native C Driver](https://github.com/robotdyn-dimmer/DimmerLink/tree/main/tasmota/xdrv-driver) | **ESP32 + ESP8266** | Compiled into firmware (xdrv_94), web sliders, MQTT, full command set |
 
 ## Berry Driver Features
 
