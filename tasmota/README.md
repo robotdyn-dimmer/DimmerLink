@@ -6,7 +6,7 @@ DimmerLink integrates with [Tasmota](https://tasmota.github.io/) firmware for ES
 
 | Driver | Platform | Description |
 |--------|----------|-------------|
-| [Berry I2C Driver](berry-driver/README.md) | ESP32 | Full-featured Berry driver with auto-detection, web sliders, MQTT, presets |
+| [Berry I2C Driver](https://github.com/robotdyn-dimmer/DimmerLink/tree/main/tasmota/berry-driver) | ESP32 | Full-featured Berry driver with auto-detection, web sliders, MQTT, presets |
 | Native Driver | ESP8266/ESP32 | Coming soon — lightweight C driver for resource-constrained devices |
 
 ## Berry Driver Features
@@ -26,8 +26,8 @@ DimmerLink integrates with [Tasmota](https://tasmota.github.io/) firmware for ES
 
 ## Quick Start
 
-1. [Getting Started](berry-driver/01_getting_started.md) — install and verify in 5 minutes
-2. [Configuration](berry-driver/02_configuration.md) — customize labels, addresses, presets
-3. [Control Methods](berry-driver/03_control.md) — web, HTTP, MQTT, console
-4. [Code Examples](berry-driver/04_examples.md) — Berry scripts and automations
-5. [Reference](berry-driver/05_reference.md) — command table and troubleshooting
+1. [Getting Started](https://www.rbdimmer.com/docs/dimmerlink-tasmota-berry-start) — install and verify in 5 minutes
+2. [Configuration](https://www.rbdimmer.com/docs/dimmerlink-tasmota-berry-config) — customize labels, addresses, presets
+3. [Control Methods](https://www.rbdimmer.com/docs/dimmerlink-tasmota-berry-control) — web, HTTP, MQTT, console
+4. [Code Examples](https://www.rbdimmer.com/docs/dimmerlink-tasmota-berry-examples) — Berry scripts and automations
+5. [Reference](https://www.rbdimmer.com/docs/dimmerlink-tasmota-berry-reference) — command table and troubleshooting

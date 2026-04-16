@@ -25,13 +25,13 @@ The DimmerLink Berry driver connects MCU TRIAC AC dimmer hardware to Tasmota via
 
 | Page | Description |
 |------|-------------|
-| [Getting Started](01_getting_started.md) | Installation, first boot, verification |
-| [Configuration](02_configuration.md) | JSON config, I2C addresses, multi-device setup |
-| [Control Methods](03_control.md) | Web dashboard, console, HTTP API, MQTT |
-| [Code Examples](04_examples.md) | Berry scripts, automations, Home Assistant |
-| [Reference & Troubleshooting](05_reference.md) | Command table, curves, common issues |
+| [Getting Started](https://www.rbdimmer.com/docs/dimmerlink-tasmota-berry-start) | Installation, first boot, verification |
+| [Configuration](https://www.rbdimmer.com/docs/dimmerlink-tasmota-berry-config) | JSON config, I2C addresses, multi-device setup |
+| [Control Methods](https://www.rbdimmer.com/docs/dimmerlink-tasmota-berry-control) | Web dashboard, console, HTTP API, MQTT |
+| [Code Examples](https://www.rbdimmer.com/docs/dimmerlink-tasmota-berry-examples) | Berry scripts, automations, Home Assistant |
+| [Reference & Troubleshooting](https://www.rbdimmer.com/docs/dimmerlink-tasmota-berry-reference) | Command table, curves, common issues |
 
 ## Download
 
-- [`DimmerLink.be`](DimmerLink.be) — main driver
-- [`dimmerlink_loader.be`](dimmerlink_loader.be) — auto-loader
+- [`DimmerLink.be`](https://github.com/robotdyn-dimmer/DimmerLink/blob/main/tasmota/berry-driver/DimmerLink.be) — main driver
+- [`dimmerlink_loader.be`](https://github.com/robotdyn-dimmer/DimmerLink/blob/main/tasmota/berry-driver/dimmerlink_loader.be) — auto-loader
