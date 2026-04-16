@@ -19,6 +19,7 @@ AC dimmer controller for lamp brightness control via TRIAC. Connects to your pro
 | [I2C Interface](04_I2C_COMMUNICATION.md) | Registers and examples for I2C |
 | [Single Board Computers](05_SINGLE_BOARD_COMPUTERS.md) | Raspberry Pi, Orange Pi, Banana Pi |
 | [Advanced Usage](06_ADVANCED_USAGE.md) | USB-UART, LoRa, GSM, Bluetooth |
+| [**Tasmota Integration**](tasmota/README.md) | Berry I2C driver for ESP32 — web dashboard, MQTT, HTTP, Home Assistant |
 | [FAQ & Troubleshooting](07_FAQ_TROUBLESHOOTING.md) | Common questions and solutions |
 
 ---
