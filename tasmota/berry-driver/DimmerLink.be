@@ -413,6 +413,7 @@ class DimmerLink : I2C_Driver
   # Command: DimmerLink[_Name]Curve [ch] <0-2>
   # ─────────────────────────────────────────────
   def cmd_curve(payload)
+    import string
     var parts = string.split(payload, ' ')
     var ch = 0
     var val

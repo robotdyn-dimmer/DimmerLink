@@ -62,6 +62,7 @@ if size(global._dimmerlink_presets) > 0
   tasmota.add_cmd("DimmerLinkPreset",
     def (cmd, idx, payload, pj)
       import json as j
+      import string
       var p = global._dimmerlink_presets
       var name = string.tolower(payload)
       if p.contains(name)
