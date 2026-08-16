@@ -26,8 +26,8 @@ AC dimmer controller for lamp brightness control via TRIAC. Connects to your pro
 
 ![DimmerLink](images/DimLink_pic.jpeg)
 
-- **Product Page**: [DImmerLink on rbdimmer.com](https://www.rbdimmer.com/shop/dimmerlink-controller-uart-i2c-interface-for-ac-dimmers-48)
-- **AliExpress Page**: [DImmerLink on AliExpress](https://fr.aliexpress.com/item/1005011583805008.html)
+- **Product Page**: [DImmerLink on rbdimmer.com](https://www.rbdimmer.com/shop/dimmerlink-controller-uart-i2c-interface-for-ac-dimmers-48?utm_source=github&utm_medium=referral&utm_campaign=dimmerlink)
+- **AliExpress Page**: [DImmerLink on AliExpress](https://aliexpress.com/item/1005011583805008.html)
 
 ---
 
@@ -165,8 +165,8 @@ examples/
 ## Support
 
 - **GitHub Issues**: [Report an issue](https://github.com/robotdyn-dimmer/DimmerLink/issues)
-- **Product Page**: [DImmerLink on rbdimmer.com](https://www.rbdimmer.com/shop/dimmerlink-controller-uart-i2c-interface-for-ac-dimmers-48)
-- **AliExpress Page**: [DImmerLink on AliExpress](https://fr.aliexpress.com/item/1005011583805008.html)
+- **Product Page**: [DImmerLink on rbdimmer.com](https://www.rbdimmer.com/shop/dimmerlink-controller-uart-i2c-interface-for-ac-dimmers-48?utm_source=github&utm_medium=referral&utm_campaign=dimmerlink)
+- **AliExpress Page**: [DImmerLink on AliExpress](https://aliexpress.com/item/1005011583805008.html)
 
 ---
 

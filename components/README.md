@@ -365,6 +365,6 @@ MIT License - see [LICENSE](../esphome/LICENSE)
 
 ## Links
 
-- [DimmerLink Hardware](https://rbdimmer.com)
+- [DimmerLink Hardware](https://rbdimmer.com/?utm_source=github&utm_medium=referral&utm_campaign=dimmerlink)
 - [ESPHome Documentation](https://esphome.io)
 - [Home Assistant](https://www.home-assistant.io)

@@ -184,7 +184,7 @@ To switch back to UART from I2C, send command `0x03` to I2C register `0x01` (COM
 ## Support
 
 If you need technical assistance:
-- Visit your account at [rbdimmer.com](https://www.rbdimmer.com)
+- Visit your account at [rbdimmer.com](https://www.rbdimmer.com/?utm_source=github&utm_medium=referral&utm_campaign=dimmerlink)
 - Email: support@rbdimmer.com
 
 ---

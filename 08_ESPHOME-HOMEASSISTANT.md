@@ -40,7 +40,7 @@ Your ESP just sends: *"Set brightness to 50%"* via I2C. That's it.
 | Setup complexity | Medium (tuning required) | **Simple YAML** |
 | Dimming curves | Software only | **3 hardware curves** |
 | AC frequency | Manual configuration | **Auto-detect 50/60 Hz** |
-| Additional hardware | $0 | [$1.99 module](https://www.rbdimmer.com/shop/dimmerlink-controller-uart-i2c-interface-for-ac-dimmers-48) |
+| Additional hardware | $0 | [$1.99 module](https://www.rbdimmer.com/shop/dimmerlink-controller-uart-i2c-interface-for-ac-dimmers-48?utm_source=github&utm_medium=referral&utm_campaign=dimmerlink) |
 
 > **When to use `ac_dimmer`:** If it already works well for your setup — keep using it!
 >
@@ -50,8 +50,8 @@ Your ESP just sends: *"Set brightness to 50%"* via I2C. That's it.
 
 ![DimmerLink](https://github.com/robotdyn-dimmer/DimmerLink/raw/main/images/DimLink_pic.jpeg)
 
-- **Product Page**: [DImmerLink on rbdimmer.com](https://www.rbdimmer.com/shop/dimmerlink-controller-uart-i2c-interface-for-ac-dimmers-48)
-- **AliExpress Page**: [DImmerLink on AliExpress](https://fr.aliexpress.com/item/1005011583805008.html)
+- **Product Page**: [DImmerLink on rbdimmer.com](https://www.rbdimmer.com/shop/dimmerlink-controller-uart-i2c-interface-for-ac-dimmers-48?utm_source=github&utm_medium=referral&utm_campaign=dimmerlink)
+- **AliExpress Page**: [DImmerLink on AliExpress](https://aliexpress.com/item/1005011583805008.html)
 
 ---
 
